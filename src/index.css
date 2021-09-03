@@ -9,14 +9,10 @@ body {
 }
 
 .app {
-  background-image: linear-gradient(to right bottom, #1c92d2, #f2fcfe);
+  background-image: url(./background.jpg);
   background-size: cover;
   background-position: center;
   transition: 0.8s ease-in-out;
-}
-
-.app.warm {
-  background-image: linear-gradient(to right bottom, #ef3b36, #ffffff);
 }
 
 main {
