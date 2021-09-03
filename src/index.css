@@ -9,18 +9,14 @@ body {
 }
 
 .app {
-  background-image: linear-gradient(to right bottom, 
-  #1c92d2,
-  #f2fcfe);
+  background-image: linear-gradient(to right bottom, #1c92d2, #f2fcfe);
   background-size: cover;
   background-position: center;
   transition: 0.8s ease-in-out;
 }
 
 .app.warm {
-  background-image: linear-gradient(to right bottom, 
-  #EF3B36,
-  #FFFFFF);
+  background-image: linear-gradient(to right bottom, #ef3b36, #ffffff);
 }
 
 main {
@@ -51,6 +47,7 @@ main {
 
   color: #313131;
   font-size: 20px;
+  text-align: center;
 
   transition: 0.4s ease;
 }
